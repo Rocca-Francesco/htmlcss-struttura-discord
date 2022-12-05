@@ -35,7 +35,11 @@ video {
 #login,
 .notizia,
 .col-blu,
-.col-pink {
+.col-pink,
+#sezione-big,
+#red,
+#logo-bottom,
+#button {
     border: 2px dashed black;
 }
 
@@ -107,5 +111,36 @@ a {
 }
 
 .bg-grey {
-    background-color: #d3d3d3;
+    background-color: gray;
+}
+
+#sezione-big {
+    background-color: #228b22;
+    width: 900px;
+    min-height: 300px;
+}
+
+/* footer */
+
+.bg-black {
+    background-color: #23272a;
+}
+
+#red {
+    background-color: #f08080;
+    min-width: 150px;
+    height: 300px;
+}
+
+.water {
+    background-color: #20b2aa;
+    width: calc(100% / 4);
+    border: 2px dashed white;
+}
+
+#logo-bottom,
+#button {
+    background-color: gray;
+    justify-content: space-between;
+    padding: 2px;
 }
