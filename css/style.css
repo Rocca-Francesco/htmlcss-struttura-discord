@@ -146,11 +146,15 @@ a {
 
 .sfondo-fine {
     background-color: #7fffd4;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 10px;
 }
 
 #logo-bottom,
 #button {
     background-color: gray;
-    justify-content: space-between;
-    padding: 2px;
+    margin: 10px 0;
 }
