@@ -33,30 +33,35 @@
     </section>
 
     <!-- layout sections -->
-    <main class="container">
-        <section class="d-flex">
+    <main>
+        <section class="container colonne d-flex">
             <div class="col-blu"></div>
             <div class="col-pink"></div>
         </section>
 
-        <section class="d-flex bg-grey">
-            <div class="col-pink"></div>
+        <!-- bg-gray serve per lo sfondo fuori dal container -->
+        <div class="bg-grey">
+            <section class="container colonne d-flex ">
+                <div class="col-pink"></div>
+                <div class="col-blu"></div>
+            </section>
+        </div>
+
+        <section class="container colonne d-flex">
             <div class="col-blu"></div>
+            <div class="col-pink"></div>
         </section>
 
-        <section class="d-flex">
-            <div class="col-blu"></div>
-            <div class="col-pink"></div>
-        </section>
-
-        <section class="d-flex bg-grey">
-            <div id="sezione-big"></div>
-        </section>
+        <div class="bg-grey">
+            <section class="container colonne d-flex bg-grey">
+                <div id="sezione-big"></div>
+            </section>
+        </div>
     </main>
 
     <!-- footer -->
-    <footer class="container bg-black">
-        <section class="d-flex">
+    <footer class="bg-black">
+        <section class="container d-flex">
             <div id="red"></div>
             <div class="water"></div>
             <div class="water"></div>
@@ -64,10 +69,13 @@
             <div class="water"></div>
         </section>
         <hr>
-        <section class="d-flex">
-            <a href="#" id="logo-bottom">Logo</a>
-            <a href="#" id="button">Bottone</a>
-        </section>
+
+        <div class="sfondo-fine">
+            <section class="container d-flex">
+                <a href="#" id="logo-bottom">Logo</a>
+                <a href="#" id="button">Bottone</a>
+            </section>
+        </div>
     </footer>
 </body>
 

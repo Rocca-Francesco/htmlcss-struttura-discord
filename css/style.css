@@ -86,7 +86,6 @@ a {
     min-height: 300px;
     align-items: center;
     justify-content: center;
-    padding: 10px auto;
 }
 
 .notizia {
@@ -97,6 +96,12 @@ a {
 }
 
 /* layout sections */
+
+/* colonne è per la distanza tra sezioni, che non so come chiamare */
+
+.colonne {
+    margin: 30px auto;
+}
 
 .col-blu {
     background-color: #1e90ff;
@@ -112,6 +117,7 @@ a {
 
 .bg-grey {
     background-color: gray;
+    border: 30px auto;
 }
 
 #sezione-big {
@@ -136,6 +142,10 @@ a {
     background-color: #20b2aa;
     width: calc(100% / 4);
     border: 2px dashed white;
+}
+
+.sfondo-fine {
+    background-color: #7fffd4;
 }
 
 #logo-bottom,
