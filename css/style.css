@@ -1,0 +1,63 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+svg,
+picture,
+video {
+    min-height: 100vh;
+}
+
+/* Utils */
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* header */
+
+header {
+    background-color: #9ac0cc;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.intestazione {
+    background-color: #c3941d;
+    margin: 5px auto;
+    align-items: center;
+}
+
+#logo,
+#link,
+#login {
+    padding: 5px;
+    border: 2px dashed black;
+    justify-content: space-between;
+}
+
+#link {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#logo,
+#login {
+    width: 250px;
+}
